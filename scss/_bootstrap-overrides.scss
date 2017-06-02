@@ -16,12 +16,28 @@
     @include button-variant(white, $theme-primary, $theme-primary);
 }
 
+
 .btn {
-    font-weight: 700;
-    text-transform: uppercase;
-    border: none;
-    border-radius: 300px;
-    @include sans-serif-font;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.42857143;
+  text-align: center;'
+  text-transform: uppercase;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 10px 16px;
+  @include sans-serif-font;
 }
 
 .btn-xl {
