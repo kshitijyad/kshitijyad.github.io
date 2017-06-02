@@ -9,7 +9,7 @@
 }
 
 .btn-default {
-    @include button-variant(#CBE32D, white, white);
+    @include button-variant($gray-darker, white, white);
 }
 
 .btn-primary {

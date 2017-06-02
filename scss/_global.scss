@@ -49,7 +49,7 @@ p {
 
 .bg-dark {
     color: white;
-    background-color: #CBE32D !important;
+    background-color: $gray-darker !important;
 }
 
 .text-faded {
@@ -70,13 +70,13 @@ section {
 
 ::-moz-selection {
     color: white;
-    background: #CBE32D;
+    background: $gray-darker;
     text-shadow: none;
 }
 
 ::selection {
     color: white;
-    background: #CBE32D;
+    background: $gray-darker;
     text-shadow: none;
 }
 
@@ -91,5 +91,5 @@ img::-moz-selection {
 }
 
 body {
-    -webkit-tap-highlight-color: #CBE32D;
+    -webkit-tap-highlight-color: $gray-darker;
 }
