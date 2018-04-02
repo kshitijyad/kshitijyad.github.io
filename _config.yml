@@ -1,0 +1,40 @@
+# Site settings
+title: Kshitij Yadav's blog page
+description: "A minimal blog template, build with Jekyll."
+url: "https://kshitijyad.github.io"
+author:
+  name: "Kshitij Yadav"
+  email: "kshitijyad@gmail.com"
+  url: "https://kshitijyad.github.io"
+
+# Build settings
+baseurl: https://kshitijyad.github.io # Change this to your relative path (ex: /blog/), or leave just a /
+markdown: kramdown
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 8
+paginate_path: /page:num/
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Plugins
+gems:
+  - jekyll-paginate
+
+# Custom variables
+version: "1.1.0"
+
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: false
+
+theme: jekyll-theme-cayman
